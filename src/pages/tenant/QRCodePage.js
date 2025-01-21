@@ -3,7 +3,7 @@ import React from "react";
 import { QRCodeCanvas } from "qrcode.react"; // Using Canvas-based QR code (or you can use QRCodeSVG)
 
 const QRCodePage = () => {
-  const qrUrl = "http://localhost:3000"; // Replace this with your actual tenant page URL if needed
+  const qrUrl = "https://mernfront-l567.onrender.com"; // Replace this with your actual tenant page URL if needed
 
   return (
     <div style={styles.container}>
