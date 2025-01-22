@@ -11,7 +11,7 @@ const OwnerDashboard = () => {
   useEffect(() => {
     const fetchProperties = async () => {
       try {
-        const response = await axios.get("https://mernback-7k5e.onrender.com//api/properties");
+        const response = await axios.get("https://mernback-7k5e.onrender.com/api/properties");
         setProperties(response.data);
       } catch (err) {
         console.error("Error fetching properties:", err);
